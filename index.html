@@ -1,194 +1,214 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <link
-      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <title>Portfólio</title>
-  </head>
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+   <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+   <link rel="stylesheet" href="./assets/css/style.css" />
 
-  <body>
-      <header class="l-header">
-         <nav class="nav bd-grid">
+   <title>Portfólio</title>
+</head>
+
+<body>
+   <header class="l-header">
+      <nav class="nav bd-grid">
          <div>
             <a href="#" class="nav__logo">Gabriel</a>
          </div>
 
          <div class="nav__menu" id="nav-menu">
-               <ul class="nav__list">
-                  <li class="nav__item"><a href="#home" class="nav__link" active>Início</a></li>
-                  <li class="nav__item"><a href="#about" class="nav__link">Sobre</a></li>
-                  <li class="nav__item"><a href="#skills" class="nav__link">Habilidades</a></li>
-                  <li class="nav__item"><a href="#work" class="nav__link">Projetos</a></li>
-                  <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
-               </ul>
+            <ul class="nav__list">
+               <li class="nav__item"><a href="#home" class="nav__link" active>Início</a></li>
+               <li class="nav__item"><a href="#about" class="nav__link">Sobre</a></li>
+               <li class="nav__item"><a href="#skills" class="nav__link">Habilidades</a></li>
+               <li class="nav__item"><a href="#work" class="nav__link">Projetos</a></li>
+               <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
+            </ul>
          </div>
 
          <div class="nav__toggle" id="nav-toggle">
             <i class="bx bx-menu"></i>
          </div>
-         </nav>
-      </header>
+      </nav>
+   </header>
 
-      <main class="l-main">
-         <section class="home bd-grid" id="home">
-            <div class="home__data">
-               <h1 class="home__title">Olá, <br> eu sou o <span class="home__title-color">Gabriel</span>,<br> Web Developer.</h1>
-               <a href="#" class="button">Contato</a>
-            </div>
-
-            <div class="home__social">
-               <a href="https://www.linkedin.com/in/gabriel-freitas-3910061b0/" class="home__social-icon"><i class="bx bxl-linkedin"></i></a>
-               <a href="https://github.com/Gabrielhidro" class="home__social-icon"><i class="bx bxl-github"></i></a>
-               <a href="https://api.whatsapp.com/send?phone=5534984109482&text=Gabriel%20Freitas" class="home__social-icon"><i class="bx bxl-whatsapp"></i></a>
-            </div>
-
-            <div class="home__img">
-               <img src="./assets/img/home.jpg" alt="">
-            </div>
-         </section>
-
-         <section class="about section" id="about">
-            <h2 class="section-title">Sobre</h2>
-
-            <div class="about__container bd-grid">
-               <div class="about__img">
-                  <img src="./assets/img/bs.jpg" alt="">
-               </div>
-
-               <div>
-                  <h2 class="about__subtitle">Tudo bem?</h2>
-                  <p class="about__text">Olá! É um prazer ter você aqui! Eu sou o Gabriel, tenho 23 anos, estudante de web designer e programação front-end fascinado por todas as soluções e possibilidades que a Internet pode oferecer. <br>
-                     Desde o meu primeiro projeto venho me apaixonando cada vez mais por este mundo, atualmente cursando Análise e Desenvolvimento de Sistemas, sei que muito mais que uma profissão, tenho uma paixão.</p>
-               </div>
-            </div>
-         </section>
-
-         <section class="skilld section" id="skills">
-            <h2 class="section-title">Habilidades</h2>
-
-            <div class="skills__container bd-grid">
-               <div>
-                  <h2 class="skills__subtitle">Habilidades</h2>
-                  <p class="skills__text">Tenho conhecimento avançado em HTML e CSS. Estou aprendendo  Javascript e React js, estudando através de várias plataformas de cursos online. <br> Minhas habilidades estão resumidas em foco,  concentração, comunicação eficaz, pensamento criativo, empatia e ética! </p>
-
-                  <div class="skills__data">
-                     <div class="skills__names">
-                        <i class="bx bxl-html5 skills__icon"></i>
-                        <span class="skills__name">HTML5</span>
-                     </div>
-                     
-                     <div>
-                        <span class="skills__percentage">90%</span>
-                     </div>
-
-                     <div class="skills__bar  skills__html"></div>
-                  </div>
-
-                  
-                  <div class="skills__data">
-                     <div class="skills__names">
-                        <i class="bx bxl-css3 skills__icon"></i>
-                        <span class="skills__name">CSS3</span>
-                     </div>
-                     
-                     <div>
-                        <span class="skills__percentage">80%</span>
-                     </div>
-
-                     <div class="skills__bar  skills__css"></div>
-                  </div>
-
-                  
-                  <div class="skills__data">
-                     <div class="skills__names">
-                        <i class="bx bxl-react skills__icon"></i>
-                        <span class="skills__name">React JS</span>
-                     </div>
-                     
-                     <div>
-                        <span class="skills__percentage">20%</span>
-                     </div>
-
-                     <div class="skills__bar  skills__ux"></div>
-                  </div>
-
-
-                  <div class="skills__data">
-                     <div class="skills__names">
-                        <i class="bx bxl-javascript skills__icon"></i>
-                        <span class="skills__name">JAVASCRIPT</span>
-                     </div>
-                     
-                     <div>
-                        <span class="skills__percentage">55%</span>
-                     </div>
-
-                     <div class="skills__bar  skills__js"></div> 
-                  </div>
-               </div>
-
-               <div class="radius">
-                  <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_xsnsvpbs.json"  background="#8257e5" border-radius="10dp"  speed="1.5"  style="width: 100%; height: 420px;"  loop  autoplay class="skills__img lottie"></lottie-player>
-               </div>
-            </div>
-         </section>
-
-         <section class="work section" id="work">
-            <h2 class="section-title">Projetos</h2>
-            <div class="work__container bd-grid">
-               <div class="work__img">
-                  <a href="https://gabrielhidro.github.io/Animais_Fantasticos/"><img src="./assets/img/Captura de Tela (29).png" alt=""></a>
-               </div>
-               <div class="work__img">
-                  <a href="https://gabrielhidro.github.io/buttons-creator/"><img src="./assets/img/Captura de Tela (30).png" alt=""></a>
-               </div>
-               <div class="work__img">
-                  <a href="https://gabrielhidro.github.io/Bikcraft/"><img src="./assets/img/Captura de Tela (31).png" alt=""></a>
-               </div>
-               <div class="work__img">
-                  <a href="https://gabrielhidro.github.io/Brafe1-Flexbox/"><img src="./assets/img/Captura de Tela (32).png" alt=""></a>
-               </div>
-               <div class="work__img">
-                  <a href="https://gabrielhidro.github.io/cafeteria/"><img src="./assets/img/Captura de Tela (33).png" alt=""></a>
-               </div>
-               <div class="work__img">
-                  <a href="https://gabrielhidro.github.io/buscaCep/"><img src="./assets/img/Captura de Tela (34).png" alt=""></a>
-               </div>
-            </div>
-         </section>
-
-         <section class="contact section" id="contact">
-            <h2 class="section-title">Contato</h2>
-            <div class="contact__container bd-grid">
-               <form action="" class="contact__form">
-                  <input type="text" placeholder="Nome" class="contact__input">
-                  <input type="email" placeholder="Email" class="contact__input">
-                  <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-
-                  <input type="button" value="Enviar" class="contact__button button">
-               </form>
-            </div>
-         </section>
-      </main>
-
-      <footer class="footer">
-         <p class="footer__title">Gabriel</p>
-         <div class="footer_social">
-            <a href="https://www.facebook.com/gabrielfraitas/" class="footer__icon"><i class="bx bxl-facebook"></i></a>
-            <a href="https://www.instagram.com/gabriel_hardyfilth/" class="footer__icon"><i class="bx bxl-instagram"></i></a>
-            <a href="https://api.whatsapp.com/send?phone=5534984109482&text=Gabriel%20Freitas" class="footer__icon"><i class="bx bxl-whatsapp"></i></a>
+   <main class="l-main">
+      <section class="home bd-grid" id="home">
+         <div class="home__data">
+            <h1 class="home__title">Olá, <br> eu sou o <span class="home__title-color">Gabriel</span>,<br> Web
+               Developer.</h1>
+            <a href="#" class="button">Contato</a>
          </div>
-         <p>&#169; 2021 copyright all right reserved</p>
-      </footer>
 
-      <script src="https://unpkg.com/scrollreveal"></script>
-      <script src="./assets/js/main.js"></script>
-  </body>
+         <div class="home__social">
+            <a href="https://www.linkedin.com/in/gabriel-freitas-3910061b0/" class="home__social-icon"><i
+                  class="bx bxl-linkedin"></i></a>
+            <a href="https://github.com/Gabrielhidro" class="home__social-icon"><i class="bx bxl-github"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=5534984109482&text=Gabriel%20Freitas"
+               class="home__social-icon"><i class="bx bxl-whatsapp"></i></a>
+         </div>
+
+         <div class="home__img">
+            <img src="./assets/img/home.jpg" alt="">
+         </div>
+      </section>
+
+      <section class="about section" id="about">
+         <h2 class="section-title">Sobre</h2>
+
+         <div class="about__container bd-grid">
+            <div class="about__img">
+               <img src="./assets/img/bs.jpg" alt="">
+            </div>
+
+            <div>
+               <h2 class="about__subtitle">Tudo bem?</h2>
+               <p class="about__text">Olá! É um prazer ter você aqui! Eu sou o Gabriel, tenho 23 anos, estudante de web
+                  designer e programação front-end fascinado por todas as soluções e possibilidades que a Internet pode
+                  oferecer. <br>
+                  Desde o meu primeiro projeto venho me apaixonando cada vez mais por este mundo, atualmente cursando
+                  Análise e Desenvolvimento de Sistemas, sei que muito mais que uma profissão, tenho uma paixão.</p>
+            </div>
+         </div>
+      </section>
+
+      <section class="skilld section" id="skills">
+         <h2 class="section-title">Habilidades</h2>
+
+         <div class="skills__container bd-grid">
+            <div>
+               <h2 class="skills__subtitle">Habilidades</h2>
+               <p class="skills__text">Tenho conhecimento avançado em HTML e CSS. Estou aprendendo Javascript e React
+                  js, estudando através de várias plataformas de cursos online. <br> Minhas habilidades estão resumidas
+                  em foco, concentração, comunicação eficaz, pensamento criativo, empatia e ética! </p>
+
+               <div class="skills__data">
+                  <div class="skills__names">
+                     <i class="bx bxl-html5 skills__icon"></i>
+                     <span class="skills__name">HTML5</span>
+                  </div>
+
+                  <div>
+                     <span class="skills__percentage">90%</span>
+                  </div>
+
+                  <div class="skills__bar  skills__html"></div>
+               </div>
+
+
+               <div class="skills__data">
+                  <div class="skills__names">
+                     <i class="bx bxl-css3 skills__icon"></i>
+                     <span class="skills__name">CSS3</span>
+                  </div>
+
+                  <div>
+                     <span class="skills__percentage">80%</span>
+                  </div>
+
+                  <div class="skills__bar  skills__css"></div>
+               </div>
+
+
+               <div class="skills__data">
+                  <div class="skills__names">
+                     <i class="bx bxl-react skills__icon"></i>
+                     <span class="skills__name">React JS</span>
+                  </div>
+
+                  <div>
+                     <span class="skills__percentage">20%</span>
+                  </div>
+
+                  <div class="skills__bar  skills__ux"></div>
+               </div>
+
+
+               <div class="skills__data">
+                  <div class="skills__names">
+                     <i class="bx bxl-javascript skills__icon"></i>
+                     <span class="skills__name">JAVASCRIPT</span>
+                  </div>
+
+                  <div>
+                     <span class="skills__percentage">55%</span>
+                  </div>
+
+                  <div class="skills__bar  skills__js"></div>
+               </div>
+            </div>
+
+            <div class="radius">
+               <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_xsnsvpbs.json" background="#8257e5"
+                  border-radius="10dp" speed="1.5" style="width: 100%; height: 420px;" loop autoplay
+                  class="skills__img lottie"></lottie-player>
+            </div>
+         </div>
+      </section>
+
+      <section class="work section" id="work">
+         <h2 class="section-title">Projetos</h2>
+         <div class="work__container bd-grid">
+            <div class="work__img">
+               <a href="https://gabrielhidro.github.io/Animais_Fantasticos/"><img
+                     src="./assets/img/Captura de Tela (29).png" alt=""></a>
+            </div>
+            <div class="work__img">
+               <a href="https://gabrielhidro.github.io/buttons-creator/"><img
+                     src="./assets/img/Captura de Tela (30).png" alt=""></a>
+            </div>
+            <div class="work__img">
+               <a href="https://gabrielhidro.github.io/Bikcraft/"><img src="./assets/img/Captura de Tela (31).png"
+                     alt=""></a>
+            </div>
+            <div class="work__img">
+               <a href="https://gabrielhidro.github.io/Brafe1-Flexbox/"><img src="./assets/img/Captura de Tela (32).png"
+                     alt=""></a>
+            </div>
+            <div class="work__img">
+               <a href="https://gabrielhidro.github.io/cafeteria/"><img src="./assets/img/Captura de Tela (33).png"
+                     alt=""></a>
+            </div>
+            <div class="work__img">
+               <a href="https://gabrielhidro.github.io/buscaCep/"><img src="./assets/img/Captura de Tela (34).png"
+                     alt=""></a>
+            </div>
+         </div>
+      </section>
+
+      <section class="contact section" id="contact">
+         <h2 class="section-title">Contato</h2>
+         <div class="contact__container bd-grid">
+            <form action="" class="contact__form">
+               <input type="text" placeholder="Nome" class="contact__input">
+               <input type="email" placeholder="Email" class="contact__input">
+               <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+
+               <input type="button" value="Enviar" class="contact__button button">
+            </form>
+         </div>
+      </section>
+   </main>
+
+   <footer class="footer">
+      <p class="footer__title">Gabriel</p>
+      <div class="footer_social">
+         <a href="https://www.facebook.com/gabrielfraitas/" class="footer__icon"><i class="bx bxl-facebook"></i></a>
+         <a href="https://www.instagram.com/gabriel_hardyfilth/" class="footer__icon"><i
+               class="bx bxl-instagram"></i></a>
+         <a href="https://api.whatsapp.com/send?phone=5534984109482&text=Gabriel%20Freitas" class="footer__icon"><i
+               class="bx bxl-whatsapp"></i></a>
+         <a href="https://github.com/Gabrielhidro" class="footer__icon"><i class='bx bxl-github'></i></a>
+         <a href="https://www.linkedin.com/in/gabriel-freitas-3910061b0/" class="footer__icon"><i
+               class='bx bxl-linkedin'></i></a>
+      </div>
+      <p>&#169; 2021 copyright all right reserved</p>
+   </footer>
+
+   <script src="https://unpkg.com/scrollreveal"></script>
+   <script src="./assets/js/main.js"></script>
+</body>
+
 </html>
